@@ -16,7 +16,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options = chromeOptio
 
 driver.get("https://cloud.amts.pk/")
 
-time.sleep(1)
+time.sleep(0.5)
 
 # Login screen
 driver.find_element_by_id("TextBox1").send_keys("excelorithm")
