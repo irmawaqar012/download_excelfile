@@ -23,7 +23,7 @@ time.sleep(0.2)
 driver.find_element_by_id("TextBox3").send_keys("Irma123**")
 time.sleep(0.2)
 driver.find_element_by_id("Button1").click()
-time.sleep(1)
+time.sleep(5)
 
 # connection screen
 driver.get("https://cloud.amts.pk/DeviceselectionD.aspx")
@@ -39,8 +39,9 @@ time.sleep(1)
 driver.find_element_by_xpath('//*[@id="MainContent_Device_List"]/option[2]').click()
 time.sleep(1)
 driver.find_element_by_id("MainContent_Button1").click()
-time.sleep(10)
+time.sleep(3)
 
+# verification of connection, whether it is connected or not? 
 
 
 
